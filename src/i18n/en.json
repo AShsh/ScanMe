@@ -1,0 +1,16 @@
+{
+  "en": {
+    "translation": {
+      "home_startBtn": "Let`s go",
+      "login_loginInput": "Login",
+      "login_passwordInput": "Password",
+      "login_signIn": "Sign in",
+      "nav_signIn": "Sign in",
+      "nav_signOut": "Sign out",
+      "nav_scan": "Scan",
+      "login_back": "Back",
+      "scan_submitQr": "Submit QR Code",
+      "result_scanAgain": "Scan again"
+    }
+  }
+}

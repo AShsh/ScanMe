@@ -1,0 +1,175 @@
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+::-moz-placeholder {
+  color: #fff;
+}
+
+:-moz-placeholder {
+  color: #fff;
+}
+
+:-ms-input-placeholder {
+  color: #fff;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.wrap {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.back-btn {
+  position: absolute;
+  cursor: pointer;
+  left: 10px;
+  top: 10px;
+}
+
+.result {
+  margin-bottom: 15px;
+  background: rgba(45, 45, 45, 0.57);
+  padding: 20px;
+}
+
+.App {
+  color: #fff;
+  max-width: 300px;
+  height: 400px;
+  margin: auto auto;
+  background-color: #4958a0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.disabled-link {
+  pointer-events: none;
+}
+
+.error-page {
+  background: #883a3a;
+  height: 100%;
+}
+
+.nav {
+  position: fixed;
+  bottom: 0;
+}
+
+.btn {
+  display: block;
+  background: #00cfb7;
+  color: #fff;
+  border-radius: 15px;
+  text-decoration: none;
+  width: 200px;
+  margin: 0 auto;
+  padding: 5px 0;
+  transition: 0.2s;
+  border: none;
+}
+
+.btn:hover {
+  background: #0ab9a5;
+}
+
+.form {
+  max-width: 250px;
+  margin: 0 auto;
+  color: #fff;
+  padding: 20px 0 20px;
+}
+
+.form input {
+  display: block;
+  margin: 0 auto 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  color: #fff;
+  padding: 8px 0;
+}
+
+.form input:not([type="submit"]) {
+  background: #4958a0;
+  border-bottom: 1px solid #969696;
+}
+
+.form input[type="submit"] {
+  margin-top: 25px;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+.icon-back {
+  float: left;
+  margin-left: 25px;
+  color: #fff;
+}
+
+.qr-reader {
+  width: 150px;
+}
+
+.qr-reader section {
+  margin-bottom: 30px;
+}
+
+
+
+/*main*/
+
+.main {
+  position: relative;
+  display: flex;
+  height: 100%;
+  background: url(/assets/img/background.jpeg) center no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  margin: 30px 0;
+  background: rgba(255, 255, 255, .2);
+  padding: 8px 0;
+}
+
+
+/*navigation*/
+
+.navigation {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li {
+  width: 50%;
+  display: inline-block;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navigation li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.navigation li a.active {
+  color: #00cfb7;
+}

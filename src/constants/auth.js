@@ -1,0 +1,5 @@
+export const LOGIN_REQUEST = 'LOGIN_REQUEST';
+export const LOGIN_REQUEST_SUCCESS = 'LOGIN_REQUEST_SUCCESS';
+export const LOGIN_REQUEST_FAIL = 'LOGIN_REQUEST_FAIL';
+export const REQUEST_PATH = process.env.REACT_APP_DEV_API_URL;
+export const LOGOUT = 'LOGOUT';

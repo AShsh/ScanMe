@@ -1,0 +1,32 @@
+{
+  "name": "scan-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.1",
+    "dotenv": "^4.0.0",
+    "i18n": "^0.8.3",
+    "i18next": "^10.2.2",
+    "qr-code-scanner": "^1.0.5",
+    "qrcode-reader": "^1.0.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-prop-types": "^0.4.0",
+    "react-qr-reader": "^2.0.1",
+    "react-redux": "^5.0.6",
+    "react-redux-i18n": "^1.9.1",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "1.0.17",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-react-i18n": "^1.1.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
